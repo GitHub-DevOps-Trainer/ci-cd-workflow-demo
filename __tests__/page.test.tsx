@@ -7,7 +7,7 @@ describe("Home", () => {
     render(<Home />);
 
     const docH = screen.getByRole("heading", {
-      name: "Hello World",
+      name: "Welcome to Simplilearn",
       level: 2,
     });
 
